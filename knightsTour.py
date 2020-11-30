@@ -101,7 +101,7 @@ def knightMovement(startingCoordinate,destination,knightGraph):
 def createKnightGraph():
     """
     Inputs: None
-    Returns: A graph, which is presented as a dictionary, that holds all possible moves
+    Returns: A graph, which is presented as a dictionary, that holds all possible moves.
              the knight can make from each position on a 8x8 board. The value of each item pair
              consists of a list, where the first element contains all possible moves that can be 
              made from the coordinate entered as the key, the second element indicates whether the
